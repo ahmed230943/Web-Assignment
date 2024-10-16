@@ -1,0 +1,164 @@
+.portfolio_grid{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.left-part{
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.left-up{
+    border-radius: 10px;
+    flex: 2;
+
+}
+.left-down{
+    border-radius: 10px;
+    flex: 1;
+
+}
+.right-part{
+    flex: 2;
+    border-radius: 10px;;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.right-row-up{
+    border-radius: 10px;
+    flex: 1; 
+}
+.right-row-down{
+    border-radius: 10px;
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.col-left{
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.col-right{
+    border-radius: 10px;
+    flex: 1;
+}
+.row-up{
+    border-radius: 10px;
+    flex: 1;
+}
+.row-down{
+    border-radius: 10px;
+    flex: 1;
+}
+
+.propertylmao{
+    border: 2px solid black;
+}
+.pics{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.acti{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+.sizingwidth{
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: 45px;
+}
+.abs{
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn_guitar{
+    border: 2px solid black;
+    background-color:aliceblue;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+}
+.btn_guitar:hover{
+    border: 2px solid black;
+    background-color: rgb(213, 208, 208);
+    color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+.btn_guitar:active{
+    box-shadow: 5px 4px rgb(49, 48, 48) inset;
+}
+@media screen and (max-width:570px){
+    container{
+        height: 100vh;
+    }
+    .portfolio_grid{
+        width: 100%;
+        height: 300px;
+        gap: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-part{
+        border-radius: 10px;
+        gap: 1em;
+    }
+    .left-up{
+        border-radius: 10px;
+    }
+    .left-down{
+        border-radius: 10px;
+    }
+    .right-part{
+        border-radius: 10px;;
+
+    }
+    .right-row-up{
+        border-radius: 10px;
+    }
+    .right-row-down{
+        border-radius: 10px;
+        gap: 1em;
+    }
+    .col-left{
+        border-radius: 10px;
+        gap: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+    .col-right{
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .row-up{
+        border-radius: 10px;
+        gap: 1em;
+    }
+    .row-down{
+        border-radius: 10px;
+        gap: 1em;
+    }
+    
+    .propertylmao{
+        border: 2px solid black;
+    }
+}
