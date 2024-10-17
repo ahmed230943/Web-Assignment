@@ -22,12 +22,20 @@
     font-size: 3em;
     font-weight: 800;
     line-height: 100%;
+    width: fit-content;
+}
+.pheading2{
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 100%;
 }
 .pheading_smol{
     font-size: 2.25em;
     font-weight: 550;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     line-height: 100%;
+    width: fit-content;
+    height: fit-content;
 }
 .pheading_smoler_card{
     font-size: 1.7em;
@@ -236,8 +244,22 @@ hr{
     }
 }
 
+.input-with-icon {
+    position: relative;
+}
 
+.input-with-icon input {
+    padding-right: 40px;
+    border-radius: 50px;
+}
 
+.input-with-icon i {
+    position: absolute;
+    right: 22px;
+    top: 12px; /* Align the icon at the top */
+    color: grey;
+    font-size: 16px;
+}
 
 .browndot::marker{
     color:#b17457;
